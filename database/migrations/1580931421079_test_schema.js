@@ -9,8 +9,8 @@ class TestSchema extends Schema {
       table.increments()
       table.string('testName').notNullable().unique()
       table.integer('complexity').defaultTo(1)
-      table.string('status').defaultTo('not finished')
-      table.string('poster')
+      table.string('status').defaultTo('new')
+      table.integer('count_task').defaultTo(0)
       table.timestamps()
     })
   }
