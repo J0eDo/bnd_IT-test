@@ -28,7 +28,7 @@
     "@adonisjs/session": "^1.0.27",
     "@adonisjs/shield": "^1.0.8",
     "@adonisjs/validator": "^5.0.6",
-    "aws-sdk": "^2.625.0",
+    "aws-sdk": "^2.814.0",
     "pg": "^7.18.1"
   },
   "devDependencies": {},
